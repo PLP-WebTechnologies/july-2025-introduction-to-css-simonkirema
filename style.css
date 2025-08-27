@@ -1,0 +1,54 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Header */
+.site-header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  background: #555;
+  padding: 10px;
+  text-align: center;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 8px 12px;
+  display: inline-block;
+}
+.navbar a:hover {
+  background: #777;
+  border-radius: 5px;
+}
+
+/* Content Cards */
+.card {
+  background: white;
+  margin: 20px auto;          /* Outer spacing (margin) */
+  padding: 15px;              /* Inner spacing (padding) */
+  border: 2px solid #ddd;     /* Border visible */
+  border-radius: 8px;
+  width: 80%;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+.site-footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
